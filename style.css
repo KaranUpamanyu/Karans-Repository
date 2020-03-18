@@ -1,0 +1,84 @@
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    width: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+ .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+.button:hover span {display:none}
+
+.button:hover:before {
+      content:"---";
+      color: black;
+      font-weight: 900 ;
+ }
+
+#heaad{
+    padding: 20px;
+    padding-left: 150px;
+    background-color: rgb(17, 26, 73);
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    color: rgb(174, 219, 248);
+}
+
+th{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+tr{
+    font-size: 18px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(36, 36, 36);
+    align-content: center;
+    padding:30px;
+    align-items: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="heaad">
+            <h2>Head1</h2>
+            <h4>Head2</h4>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table id="myTable"  border="5px black" align="center">
+            <th>key</th>
+            <th>anotherfield</th>
+            <th>Time of Entry</th>
+            <th></th>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form name="entries">
+            <label>Key:</label><input type="text" name="key">
+            <label>Field:</label><input type="text" name="field">
+            <br>
+            <br>
+            
+        </form>
+        <br>
+        <br>
+        <button onclick="addrow()">Add</button>
+        <br>
+        <br>
+        <button onclick="exportTableToExcel('myTable')">Export Table Data To Excel File</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <a href="#link"><p>link</p></a>
+            <p>extra text</p>
+        </footer>
+    </body> 
+</html>
